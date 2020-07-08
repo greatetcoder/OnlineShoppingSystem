@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>首页</title>
+  <title>网上购物系统</title>
   <style>
     body{
       text-align: center;
