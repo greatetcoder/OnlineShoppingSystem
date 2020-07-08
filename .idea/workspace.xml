@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="090ed213-bb8c-47a0-8bde-ae9f677f32f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/artifacts/OnlineShoppingSystem_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/OnlineShoppingSystem.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/web/HomePage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/web/WEB-INF/web.xml" />
+    <list default="true" id="090ed213-bb8c-47a0-8bde-ae9f677f32f0" name="Default" comment="Javaweb课程设计项目">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../OnlineShoppingSystem/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../OnlineShoppingSystem/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +18,8 @@
       <file leaf-file-name="HomePage.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../OnlineShoppingSystem/web/HomePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -84,17 +79,6 @@
             <path>
               <item name="OnlineShoppingSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnlineShoppingSystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShoppingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShoppingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnlineShoppingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OnlineShoppingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,12 +222,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594171889354</updated>
-      <workItem from="1594171892086" duration="309000" />
+      <workItem from="1594171892086" duration="461000" />
     </task>
+    <task id="LOCAL-00001" summary="Javaweb课程设计项目">
+      <created>1594172275241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594172275241</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309000" />
+    <option name="totallyTimeSpent" value="461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -285,6 +277,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Javaweb课程设计项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="Javaweb课程设计项目" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -292,8 +288,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../OnlineShoppingSystem/web/HomePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding />
         </state>
       </provider>
