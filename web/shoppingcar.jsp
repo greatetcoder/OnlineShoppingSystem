@@ -10,33 +10,33 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="oss.GoodsSingle"%>
 <html>
+<center>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Insert title here</title>
+    <title>购物车清单</title>
 </head>
-<body>
+<body style="background-color:lightblue;">
 <jsp:useBean id="myCar" class="oss.ShopCar" scope="session"></jsp:useBean>
 <%
     ArrayList<GoodsSingle> buylist = myCar.getBuylist();
     float total = 0;
 %>
-<table border="1" rules="none" width="450" cellpadding="0"
-       cellspacing="0">
+<table   width="500" border="0">
     <tr height="50">
-        <td colspan="5" align="center">购买商品如下：</td>
+        <td colspan="5" align="center"style="background-color:#FFA500;">购物车清单：</td>
     </tr>
-    <tr align="center" height="30" bgcolor="lightgryey">
+    <tr align="center" height="30" style="background-color:#eeeeee">
         <td width="25%">名称</td>
-        <td>价格（元/斤）</td>
+        <td>价格（元）</td>
         <td>数量</td>
         <td>总价（元）</td>
-        <td>移除（-1/次）</td>
+        <td>删除</td>
     </tr>
     <%
         if (buylist == null || buylist.size() == 0) {
     %>
     <tr height="100">
-        <td colspan="5" align="center">您的购物车为空！</td>
+        <td colspan="5" align="center">空空如也！</td>
     </tr>
     <%
     } else {
@@ -53,19 +53,20 @@
         <td><%=price%></td>
         <td><%=num%></td>
         <td><%=money%></td>
-        <td><a href="docar.jsp?action=remove&name=<%=name%>">移除</a></td>
+        <td  align="center" colspan="1"  style="background-color:#eeeeee"><a href="docar.jsp?action=remove&name=<%=name%>">删除</a></td>
     </tr>
     <%
             }
         }
     %>
     <tr height="50" align="center">
-        <td colspan="5">应付金额：<%=total%></td>
+        <td colspan="5"align="center" style="background-color:#7fffd4">应付金额：<%=total%></td>
     </tr>
     <tr>
-        <td colspan="2"><a href="show.jsp">继续购买</a></td>
-        <td colspan="3"><a href="docar.jsp?action=clear">清空购物车</a></td>
+        <td colspan="2" align="center" style="background-color:#00ffff"><a href="show.jsp">继续购买</a></td>
+        <td colspan="3" align="center" style="background-color:#6495ed"><a href="docar.jsp?action=clear">清空购物车</a></td>
     </tr>
 </table>
 </body>
+</center>
 </html>
