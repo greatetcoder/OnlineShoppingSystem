@@ -74,11 +74,17 @@
                 transform: scale(1.01);
             }
     </style>
+    <script>
+        var a = '${sessionScope.loginError}';
+        if(a=='false'){
+            alert("密码错误 ，请重新输入！");
+        }
+    </script>
 </head>
 <body>
 <h1>登录</h1>
 <center>
-    <form action="shoplist.jsp" method="post">
+    <form action="login" method="post">
         <table cellpadding="5px" style="marin:10px">
             <tdoby>
                 <tr>

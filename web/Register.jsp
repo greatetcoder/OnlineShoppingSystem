@@ -100,7 +100,7 @@
 <body>
 <h1>注册</h1>
 <center>
-    <form action="Login.jsp" method="post">
+    <form action="register" method="post">
         <table cellpadding="5px" style="marin:10px">
            <tdoby>
                <tr>
